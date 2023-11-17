@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # URL do arquivo JAR no GitHub
-jar_url="https://github.com/matheusanjos62/jarindividual/raw/main/out/artifacts/jar_individual_jar/jar-individual.jar"
+jar_url="https://github.com/matheusanjos62/jarindividual/blob/main/out/artifacts/jar_individual_jar/jar-individual.jar"
 
 # Nome do arquivo JAR após o download
 jar_nome="jar-individual.jar"
