@@ -130,7 +130,7 @@ fi
 
 #executando Docker
 sleep 15
-if sudo docker exec -i Noctu mysql -u root -paluno < /home/ubuntu/script-instalacao-lima/confBanco.sql; then
+if sudo docker exec -i Noctu mysql -u root -paluno < /home/ubuntu/script/confBanco.sql; then
     echo "..."
     echo -e "\033[${PURPLE}m[Noct.u]:${NC} Docker Noct.u executado com sucesso!"
     echo "..."
@@ -142,7 +142,7 @@ else
     exit 1
 fi
 
-sudo chmod +x /home/ubuntu/Noct-U/script-instalacao-lima/java.sh
+sudo chmod +x /home/ubuntu/script/java.sh
 
 ./java.sh
 

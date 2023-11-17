@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # URL do arquivo JAR no GitHub
-jar_url="https://github.com/Noct-U/jar-individual-lima/raw/main/java/out/artifacts/noctu_looca_jar/noctu-looca.jar"
+jar_url="https://github.com/matheusanjos62/jarindividual/raw/main/out/artifacts/jar_individual_jar/jar-individual.jar"
 
 # Nome do arquivo JAR após o download
-jar_nome="noctu-looca.jar"
+jar_nome="jar-individual.jar"
 
 # verificando e instalando java 17
 sleep 5
