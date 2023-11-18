@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # URL do arquivo JAR no GitHub
-jar_url="https://github.com/matheusanjos62/jarindividual/blob/main/out/artifacts/jar_individual_jar/jar-individual.jar"
+jar_url="https://github.com/matheusanjos62/jarindividual/raw/main/out/artifacts/jar_individual_jar/jar-individual.jar"
 
 # Nome do arquivo JAR após o download
 jar_nome="jar-individual.jar"
@@ -69,7 +69,7 @@ if [ ! -f "$jar_nome" ]; then
 # Verificar se o download foi bem-sucedido
     if [ $? -eq 0 ]; then
       echo "..."
-      cho -e "\033[${PURPLE}m[Noct.u]:${NC} Download do arquivo concluído com sucesso!"
+      echo -e "\033[${PURPLE}m[Noct.u]:${NC} Download do arquivo concluído com sucesso!"
       echo "..."
     else
       echo "..."
